@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   repository: rollbackpoc/helm-sample-app
-  tag: latest
+  tag: master
 
 imagePullSecrets: 
   - name: my-registry-secret
