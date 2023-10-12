@@ -1,0 +1,2 @@
+cd ./charts
+helmfile sync
