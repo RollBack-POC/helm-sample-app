@@ -1,4 +1,4 @@
 releases:
   - name: helm-sample-app
-    chart: .charts/helm-example
+    chart: ./helm-example
     installed: true
