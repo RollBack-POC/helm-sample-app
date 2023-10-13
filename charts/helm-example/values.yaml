@@ -7,10 +7,10 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   repository: rollbackpoc/helm-sample-app
-  tag: master
+  tag: latest
 
 imagePullSecrets: 
-  - name: my-registry-secret
+  - name: my-ecr-registry-secret
 nameOverride: ""
 fullnameOverride: ""
 
