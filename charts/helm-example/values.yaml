@@ -6,11 +6,10 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
-  repository: rollbackpoc/helm-sample-app
+  repository: 001481535874.dkr.ecr.us-east-2.amazonaws.com/rollback-poc
   tag: latest
 
-imagePullSecrets: 
-  - name: my-ecr-registry-secret
+imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
