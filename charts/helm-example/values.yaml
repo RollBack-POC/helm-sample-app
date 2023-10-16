@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   repository: 001481535874.dkr.ecr.us-east-2.amazonaws.com/rollback-poc
   tag: master
 
