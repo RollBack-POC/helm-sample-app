@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   repository: 001481535874.dkr.ecr.us-east-2.amazonaws.com/rollback-poc
-  tag: main1
+  tag: master
 
 imagePullSecrets: []
 nameOverride: ""
