@@ -1,2 +1,2 @@
 cd ./charts
-helmfile sync
+helmfile sync --recreate-pods
