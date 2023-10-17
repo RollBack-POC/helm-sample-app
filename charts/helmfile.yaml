@@ -3,4 +3,6 @@
 releases:
   - name: helm-sample-app
     chart: ./helm-example
-    installed: true
+    values:
+      - image:
+          tag: ${IMAGE_TAG}
