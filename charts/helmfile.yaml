@@ -3,6 +3,3 @@
 releases:
   - name: helm-sample-app
     chart: ./helm-example
-    values:
-      - image:
-          tag: ${IMAGE_TAG}
